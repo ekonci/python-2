@@ -1,0 +1,15 @@
+print "Pozdravljen uporabnik. Pretvarjajva enote!"
+
+y = "DA"
+z = 0.621371191
+
+
+while y != "NE":
+    y = raw_input("Ali zelis, da pretvorim? ")
+
+    if y == "NE":
+        print "KONEC"
+        break
+
+    x = raw_input("Vpisi stevilo km ")
+    print str(float(x) * float(z)) + str(" miles")
